@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thamires Marques | Desenv. FrontEnd</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- Link de biblioteca de icones -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"/>
+    <!-- Link de biblioteca de icones -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">  <!-- Link do Google Fonts "Poppins" e "Raleway" -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css"> <!-- Link para o CSS -->
+    <link rel="stylesheet" href="./src/css/estilos.css">
+</head>
+
+<body>
+    <header class="cabecalho"> <!-- Geralmente infica o menu da landigpage -->
+        <a href="#">
+            <h1 class="logo">TM</h1>
+        </a>
+        <nav class="menu"> <!-- Utilizando sempre que quiser criar menu -->
+            <ul> <!-- caso tenha uma lista de menu -->
+                <li> <!-- item da lista -->
+                    <a href="#projetos">Meus Projetos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="informacoes">
+            <h1>Oi! Sou Thamires Marques,</h1>
+            <p>Uma desenvolvedora frontend em formação e apaixonada por tecnologia.💻🌐 </p>
+            <p>Estou sempre me desafiando com novos projetos e buscando feedbacks na comunidade de programação, além de
+                compartilhar meus conhecimentos.📌📚</p>
+            <p>Ah, também sou fã de jogos, filmes e séries.</p>
+
+            <ul class="redes-sociais">
+                <li> <!-- Link para o LinkedIn -->
+                    <a href="#linkedin" title="Ir para o LinkedIn" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li> <!-- Link para o WhatsApp -->
+                    <a href="https://wa.me/5511950548730" title="Enviar mensagem no WhatsApp" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </li>
+                <li> <!-- Link para o GitHub -->
+                    <a href="#github" title="Ir para o GitHub" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li> <!-- Link para o Instagram -->
+                    <a href="#instagram" title="Ir para o Instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="conteiner-foto">
+            <div class="foto sombra-interna">
+                <img src="./src/img/foto-perfil2.png" alt="foto de perfil da Thamires">
+            </div>
+        </div>
+    </section>
+
+    <section class="projetos" id="projetos">
+        <h2 class="titulo">Meus projetos</h2>
+        <div class="conteiner-projetos"> <!-- classe geralmente usada p/ agrupar elementos -->
+            <div class="projeto ativo">
+                <a href="#LinkdoprojetonoGithub" target="_blank">
+                    <img src="./src/img/projeto-listagem-pokemon.png" alt="Projeto Listagem do Pokemon">
+                    <h3>Projeto 1</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeito feito com HTML, CSS e JavaScrip com função para alterar o tema.</p>
+                        <p>🔗Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+            <div class="projeto ativo">
+                <a href="#LinkdoprojetonoGithub" target="_blank">
+                    <img src="./src/img/projeto-x-men.png" alt="Projeto site X-Men">
+                    <h3>Projeto 2</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeito feito com HTML, CSS e JavaScrip.</p>
+                        <p>🔗Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+        <button class="btn-mostrar-projetos">Mostrar mais</button>
+
+    </section>
+</body>
+
+</html>
